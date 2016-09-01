@@ -38,4 +38,16 @@ The answer lies in :
   - with some 200 odd LOC.
 - Second & best solution will be to:
   - Move away from imperative language to a functional language.
-  - This is a bigger topic & you can get more on it in Internet.
+
+### Did you say functional ?
+
+Yes. This obviously does not mean writing code in Haskell, F#, OCaml, LISP etc.
+You can. It is up to you. However, remember your target audience. The best learning 
+I have had is use any language or a mix of multiple languages but look out for these 3 things:
+- DRY code
+- readable code
+- testable code
+
+And you need not go to Haskell if awk can do your job. Remember awk is a great 
+functional language.
+
