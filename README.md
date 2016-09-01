@@ -24,6 +24,28 @@ please read the docs @ [design thoughts](https://github.com/CloudByteStorages/au
 - then (multiple variants)
 - can use groovy operators in above grammar
 
+### It has been done in Ansible, Fabric, etc libs (in python world). Why re-invent ?
+
+> I agree this, may not be production grade. However, It has been my belief that pure
+> DSL can not accomplish advanced business needs that may require parallelsim, state 
+> management, flow control etc. If we resort to scripting i.e. code using various 
+> languages, we lose our valuable contributors in form of admins, support, qa, business
+> analysts, etc. We understand we cannot be dependent on dev folks for all the times.
+> Hence, this is a hybrid solution that tries to accomplish this, via Groovy 
+> (a highly potential but less celebrated language).
+
+<br />
+
+### Another try to help you align with my thoughts !!!
+
+> If you believe accomplishing a task by implementing simple functions than writing 
+> elaborate packages & / or classes, then you are with me. Feeling at home with AWS lambda ?
+> I also agree that achieving this solution can be possible via pure functional languages. 
+> You are also right if you believe in building suitable LISP macros or utilizing unix pipes, 
+> awk & others as an alternative to this Groovy solution. Finally, it has to be a combination 
+> of various tools, functional languages & **literate programming practices** which can enable all
+> the non-dev folks to be a part of automation !!!
+
 ### A sample input file (i.e. a dsl script with .groovy extension)
 
 ```groovy
