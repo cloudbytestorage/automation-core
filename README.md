@@ -1,6 +1,7 @@
 ## What is automation-core ?
 
-This is a DSL for scripting:
+This is a DSL for scripting. To understand the details behind this project, 
+please read the docs @ [design thoughts](https://github.com/CloudByteStorages/automation-core/tree/master/touchstone/DesignThoughts)
 
 ### Features
 
