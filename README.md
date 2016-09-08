@@ -4,10 +4,11 @@ This is a DSL for scripting.
 
 ## Why ?
 
-I saw a dire need to automate use-cases fast minus errors. I saw my colleagues resorting to programming
+I saw a dire need to automate use-cases fast minus errors. I saw my automation colleagues resorting to programming
 and learning the essence of programming, designing their automation scripts, and so on. I felt there was 
 a gap to execute the test cases & come out with the results at a pace required by the organization. I could feel
-this as another dev project. Obviously, they had limited their choice of tools to a single programming language.
+this as another dev project than bridging the needs of dev & ops. Obviously, we had limited our choice 
+of tools to a single programming language (i.e. scripting the test cases using this language).
 
 ## Details
 
