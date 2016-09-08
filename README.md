@@ -1,6 +1,17 @@
 ## What is automation-core ?
 
-This is a DSL for scripting. To understand the details behind this project, 
+This is a DSL for scripting. 
+
+## Why ?
+
+I saw a dire need to automate use-cases fast minus errors. I saw my colleagues resorting to programming
+and learning the essence of programming, designing their automation scripts, and so on. I felt there was 
+a gap to execute the test cases & come out with the results at a pace required by the organization. I could feel
+this as another dev project. Obviously, they had limited their choice of tools to a single programming language.
+
+## Details
+
+To understand the details behind this project, 
 please read the docs @ [design thoughts](https://github.com/CloudByteStorages/automation-core/tree/master/touchstone/DesignThoughts)
 
 ### Features
